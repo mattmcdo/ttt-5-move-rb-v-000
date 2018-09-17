@@ -15,4 +15,5 @@ def move(board, index, character = "X")
 user_input = gets.strip
 index = input_to_index(user_input)
 board[index] = character
+display_board(board)
 end
