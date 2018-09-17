@@ -14,5 +14,5 @@ end
 def move(board, user_input, character = "X")
 input = gets.strip
 user_input = input_to_index(input)
-board[input] = character
+board[user_input] = character
 end
